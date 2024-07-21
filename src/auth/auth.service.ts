@@ -1,6 +1,5 @@
 import { BadGatewayException, Injectable } from '@nestjs/common';
 import { RegisterUserDto } from './dto/register.dto';
-import { UpdateAuthDto } from './dto/update-auth.dto';
 import { DatabaseService } from 'src/database/database.service';
 import * as bcrypt from 'bcrypt';
 import { loginDto } from './dto/login.dto';
